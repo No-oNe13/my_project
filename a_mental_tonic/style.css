@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #251010;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  color: rgb(252, 248, 248);
+  background-color: #3311af;
+  box-shadow: 10px 10px 40px red;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  border-radius: 10px;
+  width: 500px;
+  max-width: 1000px;
+  padding: 50px;
+  max-height: 1000px;
+  transform: translate(-50% -50%);
+}
+
+.box .body-box {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#main {
+  text-align: center;
+  font-size: 5rem;
+  color: yellow;
+}
+
+h2 {
+  text-align: center;
+}
+
+#btn {
+  color: blue;
+  background-color: rgb(247, 243, 21);
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100px;
+}
+
+#output {
+  padding-top: 20px;
+}
